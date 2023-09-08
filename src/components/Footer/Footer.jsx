@@ -23,14 +23,14 @@ const Footer = () => {
 
         <div>
             <h3 className="text-[30px] my-3">Connect with Us</h3>
-            <form className="max-w-[300px]">
-                <input className="w-[100%] my-3 p-3 border-0 outline-none rounded-lg" type="text" name="name" placeholder="Name"/>
+            <form className="lg:max-w-[300px] md:max-w-[300px] w-[100%]">
+                <input className="w-[100%] my-3 p-3 border-0 outline-none rounded-lg hover:outline-1 hover:outline-dotted hover:outline-black" type="text" name="name" placeholder="Name"/>
                 <br />
-                <input className="w-[100%] my-3 p-3 border-0 outline-none rounded-lg" type="text" name="email" placeholder="Email"/>
+                <input className="w-[100%] my-3 p-3 border-0 outline-none rounded-lg  hover:outline-1 hover:outline-dotted hover:outline-black" type="text" name="email" placeholder="Email"/>
                 <br />
-                <textarea className="outline-none p-3 rounded-lg" name="comment" id="comment" cols="60" rows="5"></textarea>
+                <textarea className="outline-none p-3 rounded-lg w-[100%]  hover:outline-1 hover:outline-dotted hover:outline-black" name="comment" id="comment" cols="60" rows="5"></textarea>
                 <br />
-                <input className="text-2xl border-[1px] border-solid border-black rounded-full py-2 px-5 cursor-pointer" type="submit" value="Send Message" />
+                <input className="my-3 text-2xl border-[1px] border-solid border-black rounded-full py-2 px-5 cursor-pointer" type="submit" value="Send Message" />
             </form>
         </div>
     </div>

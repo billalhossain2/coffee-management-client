@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import productImg from "../../assets/images/coffee-4.png";
 const Product = () => {
   return (
@@ -15,8 +16,12 @@ const Product = () => {
         </p>
       </div>
       <div className="actions flex lg:flex-col md:flex-col flex-row gap-3 text-white">
+        <Link to="/details">
         <i class="fa-regular fa-eye bg-[#D2B48C] cursor-pointer rounded-[5px] p-3"></i>
+        </Link>
+        <Link to="/edit">
         <i class="fa-solid fa-pen bg-[#3C393B] cursor-pointer rounded-[5px] p-3"></i>
+        </Link>
         <i class="fa-solid fa-trash bg-[#EA4744] cursor-pointer rounded-[5px] p-3"></i>
       </div>
     </div>
